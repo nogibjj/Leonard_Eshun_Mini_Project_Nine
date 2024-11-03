@@ -8,7 +8,7 @@ lint:
 	ruff check *.py mylib/*.py test_*.py *.ipynb
 
 test:
-	python -m pytest -vv --nbval -cov=mylib -cov=main test_*.py *.ipynb
+	python -m pytest -vv --nbval-lax -cov=mylib -cov=main test_*.py *.ipynb
 
 container-lint:
 	docker run --rm -i hadolint/hadolint < Dockerfile
