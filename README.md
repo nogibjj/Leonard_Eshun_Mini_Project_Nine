@@ -12,13 +12,13 @@ This repository is created to fulfill an assignments in the Data Engineering cou
 1. Perform Data Manipulation.
 
 ## Google Colab Link
-The Jupyter Notebook was hosted at Google Colab and the link can be found below:
+The Jupyter Notebook was hosted at Google Colab and the link can be found below:   
 [Google Colab Link to Jupyter Notebook](https://colab.research.google.com/drive/1z7n6Kh3i_gyrFDlgFQk_zKyxmyB82Z7m?usp=sharing)
 
 The data used was the Urbanization Census from Five Thirty Eight. This can be found at:    
 [Link to data used for this project]("https://raw.githubusercontent.com/fivethirtyeight/data/master/urbanization-index/urbanization-census-tract.csv")
 
-The requirements for assignment one are:
+The requirements one are:
 1. Python script using Pandas for descriptive statistics
 1. Read a dataset (CSV or Excel)
 1. Generate summary statistics (mean, median, standard deviation)
