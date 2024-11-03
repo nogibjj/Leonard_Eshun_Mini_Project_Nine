@@ -14,7 +14,7 @@ This repository is created to fulfill an assignments in the Data Engineering cou
 ## Google Colab Link
 The Jupyter Notebook was hosted at Google Colab and the link can be found below:   
 [Google Colab Link to Jupyter Notebook](https://colab.research.google.com/drive/1z7n6Kh3i_gyrFDlgFQk_zKyxmyB82Z7m?usp=sharing)    
-I downloaded the Jupyter Notebook during CI from Google Colab into my repository for testing with nbval during CI.
+I download the Jupyter Notebook during CI from Google Colab into my repository as `Downloaded_Notebook.ipynb` for testing with nbval during CI.
 
 The data used was the Urbanization Census from Five Thirty Eight. This can be found at:    
 [Link to data used for this project](https://raw.githubusercontent.com/fivethirtyeight/data/master/urbanization-index/urbanization-census-tract.csv)
