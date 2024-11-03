@@ -1,9 +1,6 @@
 install:
 	pip install --upgrade pip && pip install -r requirements.txt
 
-download_notebook:
-	python download_notebook.py
-
 format:
 	black *.py
 
@@ -22,6 +19,8 @@ refactor:
 generate_and_push:
 	# Create the markdown file
 	python script.py
+	
+	python download_notebook.py
 
 	# Add, commit, and push the generated files to GitHub
 	git config --local user.email "action@github.com"; \
