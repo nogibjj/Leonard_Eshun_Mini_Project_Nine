@@ -102,8 +102,6 @@ The code was pushed to Github and Github Actions did the following main things:
 1. Setup the virtual environment according to the parameters in the workflow.yml
 1. Packages were installed, including those in the requirements.txt file
 1. All python files were formated by black
-1. Code linting was done with ruf. The `make lint` command gave this output:   
-![Make Lint](assets/make_lint.png)
 1. All the tests in the test_main.py were executed. The `make test` command gave this output:   
 <img src="assets/tests.png" alt="Make Test" width="600"/>
 
