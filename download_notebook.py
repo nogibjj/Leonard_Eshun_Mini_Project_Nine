@@ -1,13 +1,8 @@
 import os.path
 import gdown
 
-
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 local_path = os.path.join(BASE_DIR, "Downloaded_Notebook.ipynb")
-
-
-
-# $ wget -O downloaded_file.ipynb 'https://docs.google.com/uc?export=download&id='$fileid
 
 
 def download_notebook(

@@ -14,7 +14,9 @@ This repository is created to fulfill an assignments in the Data Engineering cou
 ## Google Colab Link
 The Jupyter Notebook was hosted at Google Colab and the link can be found below:   
 [Google Colab Link to Jupyter Notebook](https://colab.research.google.com/drive/1z7n6Kh3i_gyrFDlgFQk_zKyxmyB82Z7m?usp=sharing)    
-I download the Jupyter Notebook during CI from Google Colab into my repository as `Downloaded_Notebook.ipynb` for testing with nbval during CI.
+I download the Jupyter Notebook during CI from Google Colab into my repository as `Downloaded_Notebook.ipynb` for testing with nbval during CI.     
+<img src="assets/download.png" alt="CI Download" width="600"/>
+
 
 The data used was the Urbanization Census from Five Thirty Eight. This can be found at:    
 [Link to data used for this project](https://raw.githubusercontent.com/fivethirtyeight/data/master/urbanization-index/urbanization-census-tract.csv)
@@ -100,10 +102,10 @@ The code was pushed to Github and Github Actions did the following main things:
 1. Setup the virtual environment according to the parameters in the workflow.yml
 1. Packages were installed, including those in the requirements.txt file
 1. All python files were formated by black
-1. Code linting was done with ruf. The `make lint` command gave this output:  
+1. Code linting was done with ruf. The `make lint` command gave this output:   
 ![Make Lint](assets/make_lint.png)
-1. All the tests in the test_main.py were executed. The `make test` command gave this output:  
-![Make Test](assets/make_test.png)
+1. All the tests in the test_main.py were executed. The `make test` command gave this output:   
+<img src="assets/tests.png" alt="Make Test" width="600"/>
 
 > [!NOTE]
 > A markdown file summarizing the information is created during the pipeline runtime using Python. Prior to this the charts are generated in the pipeline runtime and used for visualization together with the descriptive statistics in the generated md file. This is part of the test workflow and occurs as the last job. A push is made by the github action for generation of the files.
